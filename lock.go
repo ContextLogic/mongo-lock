@@ -8,8 +8,8 @@ import (
 	"sort"
 	"time"
 
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
+	"github.com/ContextLogic/mgo"
+	"github.com/ContextLogic/mgo/bson"
 )
 
 const (

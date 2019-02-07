@@ -2,6 +2,18 @@
 
 
 [[projects]]
+  branch = "v2"
+  name = "github.com/ContextLogic/mgo"
+  packages = [
+    ".",
+    "bson",
+    "internal/json",
+    "internal/sasl",
+    "internal/scram"
+  ]
+  revision = "747f5095be75397f8d048922ce2349d11fc9fddf"
+
+[[projects]]
   name = "github.com/go-test/deep"
   packages = ["."]
   revision = "6592d9cc0a499ad2d5f574fde80a2b5c5cc3b4f5"
@@ -12,6 +24,13 @@
   name = "github.com/mongo-go/testdb"
   packages = ["."]
   revision = "7bac3b9410755a679410ab619e83ca355615bd72"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/square/mongo-lock"
+  packages = ["."]
+  revision = "80a039f15c6f0992d3cd3c591e0d4bdfb43a1d21"
+  source = "github.com/ContextLogic/mongo-lock"
 
 [[projects]]
   branch = "v2"
@@ -28,6 +47,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "a8a653861693384c092442c444507a07cdefd15b7213c8f2d7c11a9bc5a2e58b"
+  inputs-digest = "5f3d5100bb689d05708e775c4a95390c74e39fde413f9c19846ff1deea13dcd6"
   solver-name = "gps-cdcl"
   solver-version = 1

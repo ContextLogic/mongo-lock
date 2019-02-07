@@ -33,9 +33,9 @@
   branch = "master"
   name = "github.com/mongo-go/testdb"
 
-[[constraint]]
-  branch = "v2"
-  name = "gopkg.in/mgo.v2"
+[[override]]
+  name = "github.com/square/mongo-lock"
+  source = "github.com/ContextLogic/mongo-lock"
 
 [prune]
   go-tests = true
